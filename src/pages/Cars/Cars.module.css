@@ -1,0 +1,53 @@
+.wrapper {
+    display: flex;
+}
+
+.container {
+    margin-top: 2%;
+    display: flex;
+}
+
+.cars {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30vw;
+    background: #D9D9D9;
+    overflow: scroll;
+    height: 70vh;
+}
+
+.cars__button {
+    text-transform: uppercase;
+    margin: 3% 9%;
+    padding: 3%;
+    cursor: pointer;
+    width: 80%;
+    box-shadow: 2px 2px #bfbfbf;
+    background: #68D733;
+    font-size: 1.2em;
+    border: none;
+    font-weight: 300;
+}
+
+.list_wrapper {
+    margin-top: 2%;
+    background: #D9D9D9;
+}
+
+.cars_search {
+    padding: 2%;
+    border: 1px solid rgba(145, 145, 145);
+    margin: 3%;
+    width: 90%;
+    font-weight: 300;
+    background: rgba(145, 145, 145, 0.4)
+
+}
+
+@media (min-width: 1200px) {
+.cars{
+    height: 80vh;
+}
+
+}
